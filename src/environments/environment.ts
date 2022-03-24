@@ -9,7 +9,8 @@ export const environment = {
   multilingual_activated: true,
   minutesBeforeShowVirtualRetreatLink: 30,
   tomato_per_timeslot: 4,
-  url_base_api: 'http://127.0.0.1:8000',
+  // url_base_api: 'http://127.0.0.1:8000',
+  url_base_api: 'https://api-dev-gcp.thesez-vous.org',
   environment_paysafe: 'TEST',
   // tslint:disable-next-line:max-line-length
   token_paysafe: 'T1QtMjM1MjAwOkItcWEyLTAtNWI4NDE0ZDYtMS0zMDJjMDIxNDEzMzhmMzEzN2FmZTgxNmUxMmE4YWJmYTk1NTVkN2VlZWQ5ZWU5ZjgwMjE0M2E1NzE5NDZjYzg3ODgwN2ZkZDU0NjkyODA1ZTg3ZjI5MjQ0ZGRiNg==',

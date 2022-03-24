@@ -1160,6 +1160,8 @@
   "timeslot.back_to_workspace": "Back to Work Space",
   "timeslot.bypass_payment": "Make this booking free (no payment)",
   "timeslot.common.active": "Active",
+  "timeslot.common.email": "Email",
+  "timeslot.common.phone": "Phone",
   "timeslot.common.first_name": "First name",
   "timeslot.common.last_name": "Name",
   "timeslot.common.present": "Present",

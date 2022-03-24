@@ -88,6 +88,14 @@ export class TimeslotComponent implements OnInit {
         title: _('timeslot.common.last_name')
       },
       {
+        name: 'email',
+        title: _('timeslot.common.email')
+      },
+      {
+        name: 'phone',
+        title: _('timeslot.common.phone')
+      },
+      {
         name: 'is_active',
         title: _('timeslot.common.active'),
         type: 'boolean'
@@ -161,6 +169,7 @@ export class TimeslotComponent implements OnInit {
       first_name: user.first_name,
       last_name: user.last_name,
       email: user.email,
+      phone: user.phone,
       is_active: reservation.is_active,
       is_present: reservation.is_present,
       cancelation_reason: reservation.getCancelationReasonLabel()
